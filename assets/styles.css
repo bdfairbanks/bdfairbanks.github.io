@@ -1,3 +1,109 @@
-body{
-  background-color: grey;
+body {
+	margin: 0;
+	padding: 0;
+}
+header {
+	background-color: rgb(64,64,64);
+	font-family: "Arial Narrow", Arial, sans-serif;
+	color: rgb(230,230,230);
+	margin-left: 0;
+	/*whatthefont.com*/}
+
+.article_header{
+	border-bottom: ridge;
+}
+
+h2{
+	margin:0;
+}
+
+h3{
+	margin: 0;
+	padding-top: 20px;
+	padding-left: 10px;
+}
+h4{
+	margin: 0;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+h5{
+	margin: 0;
+	padding-left:10px;
+	padding-bottom: 20px;
+}
+#navPlus {
+	height:50px;
+	background-color: rgb(244,242,240);
+	box-shadow: 0px 2px 0px #888888;
+}
+#icon_box{
+	position: relative;
+	top: 10px;
+	float:left;
+	padding-left: 10px;
+}
+.icon {
+	margin-right: 7px;
+	height: 20px;
+	width: 20px;
+	color:rgb(204,204,204);
+	
+}
+#twitter:hover{
+	background-color: blue;
+}
+#github:hover{
+	background-color: black;
+}
+#rss:hover{
+	background-color: orange;
+}
+#a_contain{
+	float: right;
+	padding-right: 30px;
+	position: relative;
+	top: 12px;
+}
+.a_a {
+	display: inline;
+	color: rgb(102,102,102);
+	padding-left: 10px;
+}
+.a_a:visited {
+color: rgb(102,102,102);
+}
+.a_a:hover{
+	color:rgb(0,184,123);
+}
+.hero{
+	width: 330px;
+}
+p{
+	margin-top: 7px;
+}
+
+a{
+	text-decoration: none;
+}
+.clear {
+	clear:both;
+}
+#main_articles>*{
+	border-bottom:ridge;
+	padding-left: 20px;
+}
+.article_date{
+	padding: 10px;
+}
+.article_page{
+	margin: 10px;
+	margin-left: 0;
+}
+.article_para{
+	margin: 10px;
+	margin-left: 0;
+}
+.subpage_main{
+	padding-left: 10px;
 }

@@ -1,18 +1,21 @@
 <header>
-  <p><a href="/">{{ site.title }}</a></p>
-  <p>{{ site.blurb }}</p>
 
-  <ul>
-    <li><a href="http://twitter.com/sumeetjain">Twitter</a></li>
-    <li><a href="http://github.com/sumeetjain">GitHub</a></li>
-    <li><a href="{{ "/feed.xml" }}">RSS</a></li>
-  </ul>
-
-  <ul>
-    {% for the_page in site.pages %}
-      {% if the_page.title %}
-      <li><a href="{{ the_page.url }}">{{ the_page.title }}</a></li>
-      {% endif %}
-    {% endfor %}
-  </ul>
+  <h3><a href="/">{{ site.title }}</a></h3>
+  <h5>{{ site.blurb }}</h5>
+    <div id = "navPlus">  
+        <div id ="icon_box">
+        <img src ="twitter-logo-button.jpeg" alt ="twitter" class = "icon" id = "twitter">
+        <img src = "GitHub-Mark-32px.png" alt ="github" class = "icon" id = "github">
+        <img src = "rss-logo-button.jpeg" alt ="rss" class = "icon" id = "rss">
+      </div>
+      <div id = "a_contain">
+          <ul>
+            {% for the_page in site.pages %}
+              {% if the_page.title %}
+              <li class = "a_a"><a href="{{ the_page.url }}">{{ the_page.title }}</a></li>
+              {% endif %}
+            {% endfor %}
+          </ul>
+      </div>
+      <div class = "clear"></div>
 </header>
