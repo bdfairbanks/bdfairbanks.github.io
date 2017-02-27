@@ -1,12 +1,17 @@
 <header>
-
-  <h3><a href="/">{{ site.title }}</a></h3>
-  <h5>{{ site.blurb }}</h5>
-    <div id = "navPlus">  
-        <div id ="icon_box">
-        <img src ="twitter-logo-button.jpeg" alt ="twitter" class = "icon" id = "twitter">
-        <img src = "GitHub-Mark-32px.png" alt ="github" class = "icon" id = "github">
-        <img src = "rss-logo-button.jpeg" alt ="rss" class = "icon" id = "rss">
+  <div class ="nameplate">
+    <h3><a href="/">{{ site.title }}</a></h3>
+  
+    <div id= "flexBurger">
+     <h5>{{ site.blurb }}</h5>
+      <i class="fa fa-bars" aria-hidden="true" id="hamburger"></i>
+    </div>
+  </div>
+   <div id = "navPlus"> 
+      <div id ="icon_box">
+          <i class="fa fa-twitter" aria-hidden="true" id = "twitter"></i>
+          <i class="fa fa-github" aria-hidden="true" id = "github"></i>
+          <i class="fa fa-rss" aria-hidden="true" id = "rss"> </i>
       </div>
       <div id = "a_contain">
           <ul>
