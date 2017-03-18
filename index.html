@@ -1,11 +1,12 @@
 ---
 layout: default
 ---
+  <img src ="hero.jpeg" alt ="freedownload" class ="hero">
 <div id="main_articles">
   <div id="mainHead"
     <h1>Recent Articles</h1>
   </div>
-  
+
   {% for post in site.posts %}
     <div>
       <small>{{ post.date | date: "%b %-d, %Y" }}</small>
