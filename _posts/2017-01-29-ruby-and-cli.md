@@ -36,7 +36,7 @@ title:  "Beginning Ruby and Intro to the Command Line"
   With that finished it is time to actually sit down and start writing your program!  A good way to start is to sit down and map out what you want from your program.  We want a program that can be called from any directory through the CLI which opens up a specified .txt file and either records inputted data or displays the already recorded data.  The first thing to do is to go to the directory you wish to store your .txt file in.  My recommendation would be to use the ~(home) directory.  Once you are in your chosen directory type pwd(print working directory)  in your terminal. Copy the resulting location and paste it in your ruby file. 
 </p>
 
-<img src ="pwd.png" alt="Print working directory">
+<img src="{{ site.url }}/assets/pwd.png" alt="Print working directory">
 
 <p class="article_para">
   Now we want to be ablie to write things into our file from the terminal.  To do this we need a process called <a href="https://www.codecademy.com/articles/ruby-command-line-argv" target="_blank"> ARGV</a>.  On the second line of your ruby file type direction *questionableinput = ARGV.  Direction tells the program to check the first word in the input being brought in from the CLI, and respond accordingly. questionableinput is now shorthand for everything after direction that the command line brings into this program.
@@ -81,4 +81,3 @@ title:  "Beginning Ruby and Intro to the Command Line"
   This is what happens when the input contains anything other than rm or add as the first section of input.  The entirety of the text file is already contained in the storage array, so we are able to call .each on string contained within the array.  The {} is a way of encapsulating what should be done to each string and |note| is proxy for each individual string.  The rest of this is very simple, the program puts the i variable (which begins at zero), and the first string in the array (which is the first line in the text file). The i variable is then ticked up by one, and the process is repeated for the second item in the array, and again for the next until all objects in the array are putsed with a number in front of them. The end at the finale of the program is neccesary because the if/elsif/else conditional requires it.
 </p> 
 <p class="article_para"> And there you go!  You should be able to type the name of your program from any directory to get a display of your recorded inputs.  Happy recording!</p>
-</div>
