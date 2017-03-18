@@ -12,7 +12,7 @@ title:  "Beginning Ruby and Intro to the Command Line"
   This will be accomplished by creating a .ruby program that will take your input in the Command Line Interface and stick it into a .text file.  If none of that makes sense to you don't worry, it will by the end of the explanation. This tutorial is written as though you are using a mac, so if you are not file tree locations and input commands may be slightly different.
 </p>
 
-<img src="working.png" alt="working program">
+<img src="{{ site.url }}/assets/working.png" alt="working program">
 
 <p class="article_para">
   The first thing you must understand is the command line interface.  If you are using a mac your CLI will be called terminal, in Windows it will be called the command prompt, and if you are using Linux you should already know what I am talking about.  The CLI is a way to input commands directly to your computer, and through these commands it functions as a textual interpretation of the file tree within your computer, as an alternative to the <a href ="http://www.computerhope.com/jargon/g/gui.htm" target="_blank">graphical user interface</a>.  Most people are more used to the GUI, but the CLI is a much, much more useful thing.  The useful portion we are most interested in right now is the ability to create ruby files, which is good, because we need a ruby file right about now. However, this ruby file needs to be in a specific spot, so that it can be accessed from any directory that your CLI might be.   This spot is /usr/local/bin, so conveniently you only need to type cd /usr/local/bin in your CLI.  Go there. Go there now.
