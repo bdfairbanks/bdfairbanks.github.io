@@ -18,19 +18,19 @@ title:  "Beginning Ruby and Intro to the Command Line"
   The first thing you must understand is the command line interface.  If you are using a mac your CLI will be called terminal, in Windows it will be called the command prompt, and if you are using Linux you should already know what I am talking about.  The CLI is a way to input commands directly to your computer, and through these commands it functions as a textual interpretation of the file tree within your computer, as an alternative to the <a href ="http://www.computerhope.com/jargon/g/gui.htm" target="_blank">graphical user interface</a>.  Most people are more used to the GUI, but the CLI is a much, much more useful thing.  The useful portion we are most interested in right now is the ability to create ruby files, which is good, because we need a ruby file right about now. However, this ruby file needs to be in a specific spot, so that it can be accessed from any directory that your CLI might be.   This spot is /usr/local/bin, so conveniently you only need to type cd /usr/local/bin in your CLI.  Go there. Go there now.
 </p>
 
-<img src="usr_local.png" alt="how to get there">
+<img src="{{ site.url }}/assets/usr_local.png" alt="how to get there">
 
 <p class="article_para">
   Now you hopefully have some sort of text editor downloaded.  If not I suggest <a href = "https://www.sublimetext.com/3">Sublime text,</a> because it's what I know, ignoring the negative connotation of the over hyped band of the same name. If you do have Sublime text, type  subl nameoffile.rb in your CLI.(replacing nameoffile with something you wish to type a hundred times in the near future).
 </p>
 
-<img src="questions.png" alt="opening the ruby file">
+<img src="{{ site.url }}/assets/questions.png" alt="opening the ruby file">
 
 <p class="article_para">
   This opens up a new ruby file with the name you gave it.  Despite being in the right directory our program still is not accessible from all the other directories, and is still not accesible just by its name.  To deal with the second problem first, type #!/usr/bin/env ruby at the very top of the file.  This allows you to simply type the name and get the ruby file.  To rectify the first issue type chmod 755 whateveryounamedyourfile.rb in the CLI. This will change the permisions for the file and allow it to be called outside the directory in which it currently resides.  Save your file so that all our hard work is not lost. 
 </p>
 
-<img src="chmod.png" alt="Changing permissions">
+<img src="{{ site.url }}/assets/chmod.png" alt="Changing permissions">
 
 <p class="article_para">
   With that finished it is time to actually sit down and start writing your program!  A good way to start is to sit down and map out what you want from your program.  We want a program that can be called from any directory through the CLI which opens up a specified .txt file and either records inputted data or displays the already recorded data.  The first thing to do is to go to the directory you wish to store your .txt file in.  My recommendation would be to use the ~(home) directory.  Once you are in your chosen directory type pwd(print working directory)  in your terminal. Copy the resulting location and paste it in your ruby file. 
@@ -57,11 +57,11 @@ title:  "Beginning Ruby and Intro to the Command Line"
   The add section is triggered by user input in the CLI.  If direction, the first line of the CLI input is equal to add, the section between the red if and red elsif statements runs.  These if, elsif, and at the bottom else statements are called conditionals, and they make sense if you just speak them out loud.  If this is true, the program does this section a, else if that is true, the program does section b, else the program does section b.  These statements are exclusionary, only one can run for each time the section is reached. In this case when the if statement is true, the contents of questionableinput are added to the storage array at it's last position, using the << method. This line of code also has the .join(" ") method attached.  Why you ask? Well because when we ask a perfectly reasonable question like this:
 </p>
 
-<img src="walrus_input.png" alt="A perfectly reasonable question">
+<img src="{{ site.url }}/assets/walrus_input.png" alt="A perfectly reasonable question">
 
 <p class="article_para">It comes out of the argv looking like this:</p>
 
-<img src="walruses_b4_split.png" alt="Not what we want">
+<img src="{{ site.url }}/assets/walruses_b4_split.png" alt="Not what we want">
 
 <p class="article_para"> 
   This is because the ARGV, which we are using for our input sees each space as a start of a new object.  Thus we get every word reproduced as a string containing only that word. While annoying, it is easily remedied using the the .join method, which smushes the various strings within the array together, with the space within quotations adding space in between each word. While this may seem like a less optimal form of output than it just producing what we want, this targeting method is what allows us to set the first word as our add/remove keyword. 
