@@ -331,9 +331,7 @@ a:hover{
 		width: 40%;
 			}
 	.articleImage{
-		height: 380px;
-		width: 380px;
-		margin-left: 30px;
+		margin-left: 10px;
 		margin-right: 30px;
 	}
 	.caption{
