@@ -327,7 +327,7 @@ a:hover{
 	.subpage_main{
 		display: flex;
 		flex-direction: column;
-		justify-content: center;
+		align-items: center;
 		margin-left: 30%;
 		margin-right: 50%;
 		margin-top: 50px;

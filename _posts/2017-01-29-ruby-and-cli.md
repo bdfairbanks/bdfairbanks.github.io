@@ -18,7 +18,7 @@ title:  "Beginning Ruby and Intro to the Command Line"
   The first thing you must understand is the command line interface.  If you are using a mac your CLI will be called terminal, in Windows it will be called the command prompt, and if you are using Linux you should already know what I am talking about.  The CLI is a way to input commands directly to your computer, and through these commands it functions as a textual interpretation of the file tree within your computer, as an alternative to the <a href ="http://www.computerhope.com/jargon/g/gui.htm" target="_blank">graphical user interface</a>.  Most people are more used to the GUI, but the CLI is a much, much more useful thing.  The useful portion we are most interested in right now is the ability to create ruby files, which is good, because we need a ruby file right about now. However, this ruby file needs to be in a specific spot, so that it can be accessed from any directory that your CLI might be.   This spot is /usr/local/bin, so conveniently you only need to type cd /usr/local/bin in your CLI.  Go there. Go there now.
 </p>
 
-<img src="{{ site.url }}/assets/usr_local.png" alt="how to get there">
+<img src="{{ site.url }}/assets/usr_local.png" alt="how to get there" class="articleImage">
 
 <p class="article_para">
   Now you hopefully have some sort of text editor downloaded.  If not I suggest <a href = "https://www.sublimetext.com/3">Sublime text,</a> because it's what I know, ignoring the negative connotation of the over hyped band of the same name. If you do have Sublime text, type  subl nameoffile.rb in your CLI.(replacing nameoffile with something you wish to type a hundred times in the near future).
