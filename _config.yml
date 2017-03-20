@@ -15,7 +15,7 @@
 # in the templates via {{ site.myvariable }}.
 title: Ben Fairbanks
 blurb: Student at OCS, Website Developer
-email: somethingthathurtsbda@gmail.com
+email: bdfairbanks3@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
   A website built to test out markdown, applying content created 
   with html and seeing what inharent diffenerces are created by 
