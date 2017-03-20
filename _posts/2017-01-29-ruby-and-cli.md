@@ -4,8 +4,7 @@ title:  "Beginning Ruby and Intro to the Command Line"
 <p class="article_para">
   Welcome to the wonderful world of ruby and the Command Line Interface!  This tutorial will help you to build a little knowledge of ruby basics and Command Line Interface usage through creating a program to store your random musings in a centralized .txt file.
 </p>
-<br>
-<br>
+
 <script src="https://gist.github.com/bdfairbanks/aa74956d55ab38f25b8a3cf7f212fa61.js"></script>
 
 <p class="article_para">
