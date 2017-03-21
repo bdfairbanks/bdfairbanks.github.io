@@ -89,7 +89,6 @@ h5{
 	float: right;
 	padding-right: 30px;
 	position: relative;
-	top: 12px;
 }
 .a_a {
 	display: inline;
@@ -259,7 +258,6 @@ a:hover{
 		float: right;
 		padding-right: 30px;
 		position: relative;
-		top: 12px;
 	}
 	.a_a {
 		display: inline;
