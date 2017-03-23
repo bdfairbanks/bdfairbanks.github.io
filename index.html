@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-  <img src="{{ site.url }}/assets/hero.jpeg" alt ="freedownload" class ="hero">
+  <img src="/assets/alexander-csontala-196084.jpg" alt ="freedownload" class ="hero">
 <div id="main_articles">
   <div id="mainHead">
     <h1>Recent Articles</h1>
@@ -9,14 +9,15 @@ layout: default
 
   {% for post in site.posts %}
     <div>
-      <small>{{ post.date | date: "%b %-d, %Y" }}</small>
+      <img src="/assets/{{ post.title }}.png" alt="rspec logo" class="thumbnail">
+      <small class="article_date">{{ post.date | date: "%b %-d, %Y" }}</small>
       <br>
       <a href="{{ post.url }}">{{ post.title }}</a>
       
       {{ post.excerpt | remove: '<p>' | remove: '</p>' }}
-
+        <span class="clear"></span>
       <hr>
     </div>
   {% endfor %}
-
+<a href="https://unsplash.com/@csontala" target="_blank"><h5>Main Photo by Alexander Csontala</h5></a>
 </div>
