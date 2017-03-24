@@ -99,8 +99,8 @@ h5{
 	width: 100%;
 }
 .mondrian{
-	height: 100px;
-	width: 100px;
+	height: 200px;
+	width: 400px;
 }
 p{	
 	margin-top: 7px;
@@ -271,6 +271,10 @@ a:hover{
 	.hero{
 		width: 100%;
 		height: 430px;
+	}
+	.mondrian{
+		height: 400px;
+		width: 800px;
 	}
 	p{
 		margin-top: 7px;
