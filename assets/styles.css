@@ -153,7 +153,7 @@ a:hover{
 	margin-left: 20px;
 	margin-top: 5px;
 	font-size: 10px;
-	text-decoration: italic;
+	font-style: italic;
 }
 .note{
 	background-color: cornflowerblue;
@@ -216,7 +216,6 @@ a:hover{
 		z-index: 1;
 	}
 	#flexBurger>*{
-		padding-top: 
 	}
 	#hamburger{
 		display:none;
@@ -349,7 +348,7 @@ a:hover{
 		margin-left: 20px;
 		margin-top: 5px;
 		font-size: 10px;
-		text-decoration: italic;
+		font-style: italic;
 	}
 	.note{
 		background-color: cornflowerblue;

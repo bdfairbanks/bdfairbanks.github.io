@@ -26,7 +26,7 @@ title:  "Beginning Ruby and Intro to the Command Line"
 <img src="{{ site.url }}/assets/questions.png" alt="opening the ruby file">
 
 <p class="article_para">
-  This opens up a new ruby file with the name you gave it.  Despite being in the right directory our program still is not accessible from all the other directories, and is still not accesible just by its name.  To deal with the second problem first, type #!/usr/bin/env ruby at the very top of the file.  This allows you to simply type the name and get the ruby file.  To rectify the first issue type chmod 755 whateveryounamedyourfile.rb in the CLI. This will change the permisions for the file and allow it to be called outside the directory in which it currently resides.  Save your file so that all our hard work is not lost. 
+  This opens up a new ruby file with the name you gave it.  Despite being in the right directory our program still is not accessible from all the other directories, and is still not accessible just by its name.  To deal with the second problem first, type #!/usr/bin/env ruby at the very top of the file.  This allows you to simply type the name and get the ruby file.  To rectify the first issue type chmod 755 whateveryounamedyourfile.rb in the CLI. This will change the permissions for the file and allow it to be called outside the directory in which it currently resides.  Save your file so that all our hard work is not lost. 
 </p>
 
 <img src="{{ site.url }}/assets/chmod.png" alt="Changing permissions">
@@ -71,12 +71,12 @@ title:  "Beginning Ruby and Intro to the Command Line"
 <script src="https://gist.github.com/bdfairbanks/d3e9b649ad3abe437b96102df395b3dc.js"></script>
 
 <p class="article_para">
-  If the direction portion of the input is equal to rm, than it takes the first word in questionable input, converts it to an integer, and slices out the string contained in the storage array at the corresponding location.  Arrays order their items in a 0, 1, 2... fashion, so typing rm 0 will remove the first item on the list. The program then re-writes the modified list back to the file, overwriting what was there with the modified version.  With this out of the way, we can now get to the display porion of the program.
+  If the direction portion of the input is equal to rm, than it takes the first word in questionable input, converts it to an integer, and slices out the string contained in the storage array at the corresponding location.  Arrays order their items in a 0, 1, 2... fashion, so typing rm 0 will remove the first item on the list. The program then re-writes the modified list back to the file, overwriting what was there with the modified version.  With this out of the way, we can now get to the display portion of the program.
 </p>
 
 <script src="https://gist.github.com/bdfairbanks/9ba4dbcd72e2fa82f49cd4eda1e3ed5c.js"></script>
 
 <p class="article_para">
-  This is what happens when the input contains anything other than rm or add as the first section of input.  The entirety of the text file is already contained in the storage array, so we are able to call .each on string contained within the array.  The {} is a way of encapsulating what should be done to each string and |note| is proxy for each individual string.  The rest of this is very simple, the program puts the i variable (which begins at zero), and the first string in the array (which is the first line in the text file). The i variable is then ticked up by one, and the process is repeated for the second item in the array, and again for the next until all objects in the array are putsed with a number in front of them. The end at the finale of the program is neccesary because the if/elsif/else conditional requires it.
+  This is what happens when the input contains anything other than rm or add as the first section of input.  The entirety of the text file is already contained in the storage array, so we are able to call .each on string contained within the array.  The {} is a way of encapsulating what should be done to each string and |note| is proxy for each individual string.  The rest of this is very simple, the program puts the i variable (which begins at zero), and the first string in the array (which is the first line in the text file). The i variable is then ticked up by one, and the process is repeated for the second item in the array, and again for the next until all objects in the array are putsed with a number in front of them. The end at the finale of the program is necessary because the if/elsif/else conditional requires it.
 </p> 
 <p class="article_para"> And there you go!  You should be able to type the name of your program from any directory to get a display of your recorded inputs.  Happy recording!</p>
