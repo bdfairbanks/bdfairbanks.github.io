@@ -367,5 +367,7 @@ a:hover{
 	}
 	.monTable{
 		align-self: center; 
-		margin-left: 39px;
+		margin-left: 100px;
+		display: flex;
+		flex-direction: row;
 		}	}
