@@ -39,11 +39,12 @@ h5{
 #flexBurger{
 	display: flex;
 	flex-direction: row;
-	height: 20px;
+	height: 30px;
 }
 #hamburger{
 	font-size: 20px;
 	margin-left: 200px;
+	margin-bottom: 6px;
 	border: 2px;
 	border-style: solid;
 	border-radius: .5px;
