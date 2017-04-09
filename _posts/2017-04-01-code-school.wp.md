@@ -1,5 +1,5 @@
 ---
-title:  "Surviving Code School"
+title:  "Surviving an Intensive Code School"
 ---
 <p class="article_para"> "I have no clue how I'm going to pay my taxes, but I got my code done, so it's fine" -B.N.
 </p>
