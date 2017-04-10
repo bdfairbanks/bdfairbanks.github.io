@@ -3,7 +3,10 @@ title:  "Creating a WordPress Site Using Page Builders"
 ---
 
 <p class="article_para">
-WordPress on it's own is great.  WordPress with a page builder plugin is incredible.  WordPress is a content management system based on MySQL and PHP, which can be used to create a good looking website involving HTML, CSS, and JavaScript without the user ever touching much of the base-level code. It's a reasonably simple task to create a basic site with WordPress by itself, to the point where a user with no coding experience can create a passable site.  For those of us with coding experience WordPress offers a great deal of flexibility, but it really helps to know php, and, like any coding experience, can create a bit of a headache.  However headaches are not the focus of this article.  In fact something approaching mind numbing monotony is the approach of this article.  Do you like coding, the thrill of getting things right, the challenge of a confusing puzzle?  Well congratulations, the WordPress page builder genre of plugins takes away all those things.
+WordPress on it's own is great.  WordPress with a page builder plugin is incredible.</p>
+
+
+<p class="article_para">  WordPress is a content management system based on MySQL and PHP, which can be used to create a good looking website involving HTML, CSS, and JavaScript without the user ever touching much of the base-level code. It's a reasonably simple task to create a basic site with WordPress by itself, to the point where a user with no coding experience can create a passable site.  For those of us with coding experience WordPress offers a great deal of flexibility, but it really helps to know php, and, like any coding experience, can create a bit of a headache.  However headaches are not the focus of this article.  In fact something approaching mind numbing monotony is the approach of this article.  Do you like coding, the thrill of getting things right, the challenge of a confusing puzzle?  Well congratulations, the WordPress page builder genre of plugins takes away all those things.
 </p>
 
 <p class="article_para">
