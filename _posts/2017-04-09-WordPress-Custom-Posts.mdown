@@ -5,6 +5,7 @@ title:  "Custom Posts in WordPress"
 <p class="article_para">
 Creating a custom post in word press is pretty easy.  Once you've created the custom post type just go into the admin section and click the create new button.  With that dad joke out of the way creating a custom post class is no difficult feat either.
 </p>
+
 <p class="article_para">
 Probably the easiest way to create a custom post type is by simply adding a plugin to your WordPress site.  This option works, but there are downsides to that, namely the need for a plugin that you do not control, i.e. can be taken off the market, stop updating, or any other variety of terrible things.  So to avoid that it is best to build your own custom classes.
 </p>
