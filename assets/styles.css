@@ -2,6 +2,9 @@ body {
 	margin: 0;
 	padding: 0;
 }
+header a:visited {
+	color: #FFD700;;
+}
 .nameplate {
 	background-color: rgb(42, 147, 175);
 	font-family: "Arial Narrow", Arial, sans-serif;
@@ -110,9 +113,6 @@ p{
 a{
 	text-decoration: none;
 }
-a:visited {
-	color: rgb(102,102,102);
-}
 a:hover{
 	color:rgb(0,184,123);
 }
@@ -214,9 +214,16 @@ a:hover{
 		height: 45px;
 		width:45%;
 		box-shadow: 0px 2px 0px #888888;
+		display: flex;
+		flex-direction: row;
 		z-index: 1;
 	}
-	#flexBurger>*{
+	.lastnameplate{
+		padding-left: 15px;
+	}
+	.company{
+		align-self: center;
+		padding-left: 20%
 	}
 	#hamburger{
 		display:none;
@@ -226,16 +233,14 @@ a:hover{
 		width: 55%;
 		box-shadow: 0px 2px 0px #888888;
 		display: block;
-		z-index: 0;
 		position: static;
 		background-color: rgb(42,147,175);
 		font-family: "Arial Narrow", Arial, sans-serif;
 		color: rgb(230,230,230);
-		z-index: 1;
 	}
 	#icon_box{
 		position: relative;
-		top: 10px;
+		top: 17px;
 		float:left;
 	}
 	#twitter {
@@ -261,7 +266,7 @@ a:hover{
 	}
 	#a_contain{
 		float: right;
-		padding-right: 30px;
+		padding-right: 15px;
 		position: relative;
 	}
 	.a_a {
@@ -283,9 +288,6 @@ a:hover{
 
 	a{
 		text-decoration: none;
-	}
-	a:visited {
-		color: rgb(102,102,102);
 	}
 	a:hover{
 		color:rgb(0,184,123);
@@ -377,6 +379,7 @@ a:hover{
 		background-image: url(/assets/background.jpeg);
 		background-color: #e8ecf0;
 		opacity: 0.94;
+    background-attachment: fixed;
 		font-family: 'Source Sans Pro', sans-serif;
 	}
 	.begpage_main{
@@ -399,11 +402,13 @@ a:hover{
 	.plead_box{
 		display: flex;
 		flex-direction: row;
-		margin: 10px;
+		margin: 15px;
 	}
 	.plead_text{
 		width: 50%;
-		margin-left: 10px;
+	}
+	.spacer{
+		width: 10px;
 	}
 	.float_right{
 		float: right;
@@ -414,24 +419,33 @@ a:hover{
 		display: flex;
 		flex-direction: inherit;
 		align-items: center;
-		padding: 20px;
-		margin-bottom: 10px;
+		padding: 15px;
 		background-color: #c2b280
 	}		
+
+	.trophy_box{
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
 	.trophy_beg{
 		display: flex;
 		flex-direction: column;
 		align-items: center;
-		margin: 15px;
-		width: 50%;
+		width: 95%;
 	}
 	.trophy_beg>*{
-		margin-top: 100px;
+		margin-top: 50px;
 	}
 	.brag_box{
 		display: flex;
 		flex-direction: column;
 		align-items: center;
+	}
+
+	.brag_pic{
+		width: 100%;
+		height: auto;
 	}
 
 	.praise-box{
@@ -442,6 +456,9 @@ a:hover{
 	.nice_words{
 	background-color: #c2b280;
 	margin-top: 30px;
-	padding: 10px;
+	padding: 15px;
+	}
+	.no_padding{
+		padding-left: 0px;
 	}
 }

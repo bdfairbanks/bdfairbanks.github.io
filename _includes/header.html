@@ -1,17 +1,23 @@
 <header>
   <div class ="nameplate">
-    <h3><a href="/">{{ site.title }}</a></h3>
-  
-    <div id= "flexBurger">
-     <h5>{{ site.blurb }}</h5>
-      <i class="fa fa-bars" aria-hidden="true" id="hamburger"></i>
+    <div class="lastnameplate">
+      <h3><a href="/">{{ site.title }}</a></h3>
+      <div id= "flexBurger">
+        <h5>{{ site.blurb }}</h5>
+        <i class="fa fa-bars" aria-hidden="true" id="hamburger"></i>
+      </div>
     </div>
+     <div class="company">
+       {% if page.permalink == '/AIM/'%}
+        <h1>Hello AIM!</h1>
+        {% endif %}
+      </div>
   </div>
    <div id = "navPlus"> 
       <div id ="icon_box">
-         <a href="https://twitter.com/bdfairbanks" target=_"blank"<i class="fa fa-twitter" aria-hidden="true" id = "twitter"></i></a>
-          <a href="https://github.com/bdfairbanks" target="_blank"><i class="fa fa-github" aria-hidden="true" id = "github"></i></a>
-          <a href="https://linkedin.com/in/benjamin-fairbanks" target="_blank"><i class="fa fa-linkedin" aria-hidden="true" id="twitter"></i></a>
+        <a href="https://twitter.com/bdfairbanks" target=_"blank"<i class="fa fa-twitter" aria-hidden="true" id = "twitter"></i></a>
+        <a href="https://github.com/bdfairbanks" target="_blank"><i class="fa fa-github" aria-hidden="true" id = "github"></i></a>
+        <a href="https://linkedin.com/in/benjamin-fairbanks" target="_blank"><i class="fa fa-linkedin" aria-hidden="true" id="twitter"></i></a>
       </div>
       <div id = "a_contain">
           <ul>
