@@ -1,0 +1,118 @@
+
+.beg_body{
+  background-image: url(/assets/background.jpeg);
+  background-color: #e8ecf0;
+  opacity: 0.94;
+  background-attachment: fixed;
+  font-family: 'Source Sans Pro', sans-serif;
+  line-height: 30px;
+}
+.begpage_main{
+  background-color: rgb(230,231,230);
+  display: flex;
+  flex-direction: column;
+  margin-left: 15%;
+  margin-right: 15%;
+  margin-top: 60px;
+  border-top: solid;
+  border-top-width: 40px;
+  border-color: black;
+  width: 70%;
+  }
+
+.plead_head{
+  border-bottom: solid;
+  background-color: #336699;
+  color: #e8ecf0;
+  padding: 15px;
+  padding: 70px;
+  padding-top: 40px;
+  padding-bottom: 20px;
+}
+.headline{
+  font-family: 'Taviraj', serif;
+  border-bottom: solid;
+  border-bottom-color: black;
+}
+.plead_box{
+  display: flex;
+  flex-direction: row;
+}
+.plead_text{
+  width: 50%;
+  margin: 15px;
+  padding: 70px;
+  padding-top: 40px;
+  padding-bottom: 20px;
+}
+.float_right{
+  float: right;
+}
+._box{
+
+}
+.my_pic{
+  height:200px;
+  border-radius: 50%; 
+}
+.center_box{
+  width: 75%;
+  align-self: center;
+  display: flex;
+  flex-direction: inherit;
+  align-items: center;
+  padding: 15px;
+}   
+
+.trophy_box{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.trophy_beg{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 95%;
+}
+.trophy_beg>*{
+  margin-top: 50px;
+}
+.brag_box{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.brag_pic{
+  width: 80%;
+  height: auto;
+  margin: 15px;
+  padding-left: 80px;
+  padding-right: 60px;
+  padding-top: 40px;
+  padding-bottom: 20px;
+}
+
+.praise-box{
+  display: flex;
+  flex-direction: column;
+}
+
+.nice_words{
+  background-color: #c2b280;
+  margin-top: 30px;
+  padding: 15px;
+}
+.no_padding{
+  padding-left: 0px;
+  font-family: 'Taviraj', serif;
+}
+.center{
+  display: flex;
+  flex-direction: column;
+  align-items: center
+}
+.closer{
+  line-height: 10px;
+}
