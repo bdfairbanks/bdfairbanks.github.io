@@ -9,7 +9,7 @@ function prime() {
 }
 
 function prime_pics(){
-  box = document.getElementsByClassName("brag_box");
+  box = document.getElementsByClassName("brag_pic");
   for (i=0; i<box.length; i++){
     box[i].addEventListener('click', popUp);
   }  
