@@ -14,7 +14,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: Ben Fairbanks
-blurb: Student at OCS, Website Developer
+blurb: Freelance Website Developer
 email: bdfairbanks3@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
   A website built to test out markdown, applying content created 
