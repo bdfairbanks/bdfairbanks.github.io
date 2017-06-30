@@ -66,7 +66,6 @@ h5{
 }
 #icon_box{
 	position: relative;
-	top: 10px;
 	float:left;
 	padding-left: 10px;
 }
@@ -79,7 +78,7 @@ h5{
 #twitter:hover{
 	color: blue;
 }
-#github {
+#github{
 	margin-right: 5px;
 	font-size: 20px;
 	color:#3b1f2b;
@@ -220,7 +219,7 @@ a:hover{
 	.nameplate {
 		padding-top: 5px;
 		height: 45px;
-		width:45%;
+		width:43.7%;
 		display: flex;
 		flex-direction: row;
 		z-index: 1;
@@ -288,19 +287,18 @@ a:hover{
 		font-family: 'Antic', sans-serif;
 		display: flex;
 		flex-direction: column;
-		margin-left: 30%;
-		margin-right: 50%;
+		margin: 0 auto;
 		margin-top: -120px;
 		width: 40%;
 	}
 	#main_articles>*{
 		border-bottom:ridge;
 		border-color: #CAEBF2;
+		margin: 0 auto;
 		padding-left: 20px;
-		padding-right: 20px;
 	}
 	#mainHead{
-		padding-left: 30%
+	padding-left: 0px;
 	}
 
 	.thumbnail{
