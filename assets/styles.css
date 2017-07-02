@@ -4,8 +4,9 @@ body {
 	line-height: 25px;
 }
 header{
-	padding: 25px 30px 25px 30px;
+	padding: 20px 20px 20px 20px;
 	background-color: #CAEBF2;
+	width: 100vw;
 }
 header a:visited {
 	color: #3b1f2b;
@@ -13,7 +14,6 @@ header a:visited {
 .nameplate {
 	font-family: 'Fira Sans', sans-serif;
 	color: #3b1f2b;
-	margin-left: 5px;
 }
 
 .article_header{
@@ -28,7 +28,6 @@ h2{
 h3{
 	margin: 0;
 	padding-top: 20px;
-	padding-left: 10px;
 }
 h4{
 	margin: 0;
@@ -37,21 +36,19 @@ h4{
 }
 h5{
 	margin: 0;
-	padding-left:10px;
 	padding-bottom: 20px;
 }
-.floatLeft{
-	float:left;
-}
+
 #flexBurger{
 	display: flex;
 	flex-direction: row;
 	height: 30px;
 }
+.hamburgerHolder{
+	margin-left: 25%;
+}
 #hamburger{
 	font-size: 20px;
-	margin-left: 200px;
-	margin-bottom: 6px;
 	border: 2px;
 	border-style: solid;
 	border-radius: .5px;
@@ -96,13 +93,16 @@ h5{
 }
 #a_contain{
 	float: right;
-	padding-right: 30px;
+	padding-right: 39px;
 	position: relative;
 }
 .a_a {
 	display: inline;
 	color: #CAEBF2;
 	padding-left: 10px;
+}
+.heroHolder{
+	width: 100vw;
 }
 .hero{
 	width: 100%;
@@ -135,6 +135,8 @@ a:hover{
 	border-bottom:ridge;
 	border-color: #CAEBF2;
 	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 8px;
 }
 .thumbnail{
 	height: 100px;
@@ -153,7 +155,6 @@ a:hover{
 	margin-left: 0;
 }
 .article_para{
-	margin: 10px;
 	margin-left: 0;
 }
 .gist {width: 300px;}
@@ -228,7 +229,7 @@ a:hover{
 	.lastnameplate{
 		padding-left: 15px;
 	}
-	#hamburger{
+	.hamburgerHolder{
 		display:none;
 	}
 	#navPlus {
@@ -239,14 +240,16 @@ a:hover{
 		background-color: #CAEBF2;
 		font-family: 'Fira Sans', sans-serif;
 		color: #3b1f2b;
+		margin-right: 2%;
 	}
 	#icon_box{
 		position: relative;
 		float:left;
+		margin-left: -2px;
 	}
 	#a_contain{
 		float: right;
-		padding-right: 15px;
+		padding-right: 41px;
 		position: relative;
 	}
 	.a_a {
@@ -289,7 +292,7 @@ a:hover{
 		flex-direction: column;
 		margin: 0 auto;
 		margin-top: -120px;
-		width: 40%;
+		width: 45%;
 	}
 	#main_articles>*{
 		border-bottom:ridge;
@@ -299,6 +302,7 @@ a:hover{
 	}
 	#mainHead{
 	padding-left: 0px;
+	padding-right: 0px;
 	}
 
 	.thumbnail{
