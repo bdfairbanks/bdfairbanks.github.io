@@ -156,3 +156,122 @@ body {background-size: contain}
   width: 90%;
   padding-left:10%;
 }
+.alt_body{
+  margin: 0;
+  background-color: rgb(223, 223, 223);
+}
+.header_base_layer{
+  background-image: linear-gradient(-225deg, #231557 0%, #44107A 29%, #FF1361 67%, #FFF800 100%);
+  width: 100vw; 
+  height: 400px;
+}
+.main_content{  
+  padding-left: 120px;
+  padding-right: 120px;
+  max-width: 990px;
+  margin: 0 auto;
+}
+.header_headline{
+  color: white;
+  text-align: center;
+  padding-top: 140px;
+  font-size: 60px;
+  font-family: 'Crimson Text', serif;
+}
+.first_div{
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+.first_headline{
+  font-size: 40px;
+  margin: 0;
+  color: #44107A;
+  border-bottom: ridge 5px #44107A;
+  font-family: 'Oxygen', sans-serif;
+}
+.under_first_headline{
+  font-family: 'Oxygen', sans-serif;
+  line-height: 35px;
+}
+.redone_pic{
+  height: 228px;
+  border-radius: 50%;
+}
+.second_div{
+  display: flex;
+  justify-content: space-between;
+}
+.second_1{
+  width: 45%;
+}
+.second_headline{
+  font-size: 30px;
+  margin: 0;
+  color: #44107A;
+  border-bottom: ridge 5px #44107A;
+  font-family: 'Oxygen', sans-serif;
+}
+.slight_indent{
+  font-size: 25px;
+  font-family: 'Oxygen', sans-serif;
+  margin: 0;
+  padding-left: 10px;
+}
+.main_text{
+ font-family: 'Oxygen', sans-serif;
+ line-height: 30px; 
+}
+.second_2{
+  width: 45%;
+}
+.portfolio_background{
+  background-color: rgb(243,243,243);
+  margin-top: -49px;
+}
+.portfolio_headline{
+  color: white;
+  text-align: center;
+  padding-top: 140px;
+  font-size: 100px;
+  font-family: 'Crimson Text', serif;
+}
+.hang_left2{
+  margin-top: 20px;
+}
+.redone_pic2{
+  margin-top: -60px;
+  height: 228px;
+  border-radius: 50%;
+  z-index: 1
+}
+.trophy_box2{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: -70px;
+}
+.trophy_beg2{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+.brag_pic2{
+    width: 100%;
+    margin: 15px;
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+.text_under_brag{
+  color: #44107A;
+  font-size: 37px;
+  border-bottom: ridge 5px #44107A;
+  font-family: 'Oxygen', sans-serif;
+  text-align: center; 
+}
+.under_second_headline{
+  font-family: 'Oxygen', sans-serif;
+  line-height: 20px;
+  text-align: center;
+}
