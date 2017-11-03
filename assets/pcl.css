@@ -38,11 +38,9 @@
   margin-top: 20px;
 }
 .hpi_logo{
+  margin-top: -33px;
   width: 300px;
-  align-self: flex-start;
-}
-.hpi_logo_adjustment{
-  margin-top: -158px !important;
+  align-self: flex-end;
 }
 .first_headline{
   font-size: 25px;
@@ -65,11 +63,13 @@
   display: none;
 }
 .redone_pic2{
-  margin-top: -30px;
+  margin-top: 20px;
   margin-left: 13px;
   height: 200px;
   border-radius: 50%;
   z-index: 1
+}
+.hpi_logo_adjustment{
 }
 .base_second_div{
   display: flex;
@@ -141,6 +141,11 @@
   text-align: center;
 }
 @media (min-width: 570px) and (max-width: 989px) {
+  .redone_pic2{
+    align-self: flex-start;
+    margin-top: -133px !important;
+    margin-top: 0px;
+  }
   .portfolio_headline{
     font-size: 68px;
   }
@@ -401,6 +406,9 @@
     border-radius: 50%;
     z-index: 1;
     margin-left: 0px;
+  }
+  .hpi_logo_adjustment{
+    margin-top: -158px !important;
   }
   .trophy_box2{
     display: flex;
